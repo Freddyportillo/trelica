@@ -100,7 +100,7 @@ program trelica
     print*, kll
     call inv(kll, invkll, n)
      u_liv = matmul(invkll,fa(:,2))*1000
-            print*, 'os valosres dos deloscamentos no gdl livres sao:'
+            print*, 'os valores dos deloscamentos no gdl livres sao:'
             print*,u_liv
     print*, 'os valores das reacoes sao:'
             transkli = transpose(kli)
